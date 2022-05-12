@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+html,
+body {
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  background-color: var(--light-gray) ;
+  scroll-behavior: smooth;
+}
+*{
+  font-family: 'Montserrat', sans-serif !important;
+}
+a{
+  text-decoration: none;
+}
+:root {
+    --letter-spacing-1: 1px;
+    --letter-spacing-2: 2px;
+    --letter-spacing-3: 3px;
+    --letter-spacing-4: 4px;
+    --radius2: 2px;
+    --radius4: 4px;
+    --radius6: 6px;
+    --radius8: 8px;
+    --radius12: 12px;
+    --radius18: 18px;
+    --radiusCircle: 50%;
+    --white: white;
+    --light-gray: #fdfdfd;
+    --gray: #7c7c7c;
+    --border-color: #EAEAEA;
+    --red: #a44040;
+    --red-opacity: #a440409a;
+    --black: #363636;
+    --transition8: 0.8s ease-in-out all;
+    --transition6: 0.6s ease-in-out all;
+    --transition4: 0.4s ease-in-out all;
+    --transition2: 0.2s ease-in-out all;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media (min-width: 1500px) {
+    .container {
+      width: 1440px;
+    }
+  }
